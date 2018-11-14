@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="title">经营收入</view>
+  <ff-canvas id="column-dom" canvas-id="column" opts="{{ opts }}"></ff-canvas>
+  <view class="dataList tab1"><view class="dataKey"><span></span>不含销售收入</view><view class="dataVal">160亿</view></view>
+  <view class="dataList tab2"><view class="dataKey"><span></span>浦江销售预收入</view><view class="dataVal">780亿</view></view>
+  <view class="dataList tab3"><view class="dataKey"><span></span>未完成</view><view class="dataVal">60亿</view></view>
+</view>

@@ -1,0 +1,51 @@
+.title{
+    text-align: center;
+    font-size: 48rpx;
+    color: white;
+}
+
+#column-dom{
+    width: 100%;
+    height: 600rpx;
+}
+.dataList{
+    width: 400rpx;
+    height: 60rpx;
+    display: flex;
+    align-items: center;
+    font-size: 28rpx;
+    color: white;
+}
+.dataList>.dataKey{
+    flex: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: right;
+    text-indent: 36rpx;
+    color: #ccc;
+}
+
+.dataList>.dataKey>span{
+    width: 26rpx;
+    height: 26rpx;
+    display: inline-block;
+    border-radius: 26rpx;
+    position: absolute;
+    left: 0;
+    top: 16rpx;
+}
+.tab1>.dataKey>span{
+    background: #afa9ff;
+}
+.tab2>.dataKey>span{
+    background: #33d6c5;
+}
+.tab3>.dataKey>span{
+    background: #fe8081;
+}
+.dataList>.dataVal{
+    flex: 1;
+    text-align: right;
+}

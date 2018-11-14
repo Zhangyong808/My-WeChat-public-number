@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="title">新增科创转化平台或转化项目</view>
+  <ff-canvas id="column-dom" canvas-id="column" opts="{{ opts }}"></ff-canvas>
+  <view class="dataList tab1"><view class="dataKey"><span></span>已完成</view><view class="dataVal">2家</view></view> 
+  <view class="dataList tab2"><view class="dataKey"><span></span>未完成</view><view class="dataVal">2家</view></view>
+</view>

@@ -1,0 +1,51 @@
+<view class="list_container">
+    <view class="imgTip" >
+        <image src="../../images/title.png" mode="contain"></image>
+    </view>  
+     <!-- <view class="navList" bindtap="groupChange" id="groupAll" url="/pages/measurement/measurement" >
+        <image src="../../images/3.png" alt="" />
+        集团关注 --> 
+        <!-- <image wx:else src="../../images/down.png" alt="" class="arrow2" />  -->
+     <!-- </view>    -->
+    <!-- <view class="group" hidden="{{showGroup}}">
+        <navigator class="groupList" url="/pages/group/operate/operate" hover-class="navigator-hover">
+            经营收入
+        </navigator>
+         <navigator class="groupList" url="/pages/group/newaggre/newaggre" hover-class="navigator-hover">
+            新增租售面积
+        </navigator>
+         <navigator class="groupList" url="/pages/group/newprise/newprise" hover-class="navigator-hover">
+            新增入住企业
+        </navigator>
+         <navigator class="groupList" url="/pages/group/newrental/newrental" hover-class="navigator-hover">
+            新增战略合作协议
+        </navigator>
+         <navigator class="groupList" url="/pages/group/platform/platform" hover-class="navigator-hover">
+            新增科创转化平台或转化项目
+        </navigator>
+    </view> -->
+    <navigator class="navList" url="/pages/measurement/measurement" hover-class="navigator-hover" bindtap="groupChange" id="groupAll">
+        <image src="../../images/3.png" alt="" />
+        集团关注
+    </navigator>
+    <navigator class="navList" url="/pages/construction/construction" hover-class="navigator-hover">
+        <image src="../../images/4.png" alt="" />
+        建设成本
+    </navigator>
+    <navigator class="navList" url="/pages/invest/invest" hover-class="navigator-hover">
+        <image src="../../images/1.png" alt="" />
+        工程进度
+    </navigator>
+    <navigator class="navList" url="/pages/torate/torate" hover-class="navigator-hover">
+        <image src="../../images/5.png" alt="" />
+        招商去化
+    </navigator>
+    <navigator class="navList" url="/pages/merchants/merchants" hover-class="navigator-hover">
+        <image src="../../images/2.png" alt="" />
+        招商回款
+    </navigator>
+    <navigator class="navList" url="" hover-class="navigator-hover">
+        <image src="../../images/6.png" alt="" />
+        考核指标
+    </navigator>
+</view>

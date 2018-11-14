@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+{}
+=======
+{
+  "usingComponents": {
+    "ff-canvas": "../../../f2-canvas/f2-canvas"
+  },
+  "navigationBarBackgroundColor": "#35383e"
+}
+>>>>>>> 078e240b71553c30ed12c1b2565284438c8d3f44

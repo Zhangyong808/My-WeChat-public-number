@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+<!--pages/morecons/morecons.wxml-->
+<text>pages/morecons/morecons.wxml</text>
+=======
+<view class="container">
+  <ff-canvas id="column-dom" canvas-id="column" opts="{{ opts }}" style="height:400px;"></ff-canvas>
+  
+</view>
+>>>>>>> 078e240b71553c30ed12c1b2565284438c8d3f44

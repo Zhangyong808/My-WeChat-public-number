@@ -1,0 +1,7 @@
+<view class="container">
+  <ff-canvas id="column-dom" canvas-id="column" opts="{{ opts }}" style="height:400px;"></ff-canvas>
+  <cover-view style="width:100%;position:absolute;top:5.5rem;height:3.5rem;" bindtap="play">
+  </cover-view>
+   <cover-view style="width:100%;position:absolute;top:8.3rem;height:3.5rem;" bindtap="plays">
+  </cover-view>
+</view>
