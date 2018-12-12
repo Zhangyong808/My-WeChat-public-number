@@ -1,7 +1,7 @@
 # my first small program
 
 #### 项目介绍
-临港数据统计小程序
+数据可视化的demo
 
 #### 软件架构
 软件架构说明
