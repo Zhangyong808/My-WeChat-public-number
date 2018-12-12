@@ -1,23 +1,22 @@
-# lingang_wechat
+# my first small program
 
 #### 项目介绍
 临港数据统计小程序
 
 #### 软件架构
 软件架构说明
+1.vue + antV
 
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. npm install
+2. npm run dev
+
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 简单的小程序例子,用来大数据的可视化
 
 #### 参与贡献
 
